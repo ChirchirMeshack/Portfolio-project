@@ -1,5 +1,5 @@
 import { ResumeCard } from "@/components/resume-card";
-import BlurFade from "@/components/ui/blur-fade";
+import BlurFade from "@/components/ui/Blur-fade";
 import BlurFadeText from "@/components/ui/blur-fade-text";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
@@ -31,7 +31,7 @@ export default function Page() {
                         </div>
                         <BlurFade delay={BLUR_FADE_DELAY}>
                             <Avatar>
-                                <AvatarImage alt={DATA.name} src={DATA.avatarrl}/>
+                                <AvatarImage alt={DATA.name} src={DATA.avatarUrl}/>
                                 <AvatarFallback>{DATA.initials}</AvatarFallback>
                             </Avatar>
                         </BlurFade>
@@ -67,7 +67,7 @@ export default function Page() {
                                 subtitle={work.title}
                                 href={work.href}
                                 badges={work.badges}
-                                period={`${work.start} - ${work.end ?? "Present"}`}
+                                periods={`${work.start} - ${work.end ?? "Present"}`}
                                 description={work.description}
                             />
                         </BlurFade>
@@ -91,7 +91,7 @@ export default function Page() {
                                 altText={education.school}
                                 title={education.school}
                                 subtitle={education.degree}
-                                period={`${education.start} - ${education.end}`}
+                                periods={`${education.start} - ${education.end}`}
                             />
                         </BlurFade>
                     ))}
