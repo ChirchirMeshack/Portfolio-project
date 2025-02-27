@@ -11,7 +11,7 @@ const Avatar = React.forwardRef<
     alt?: string;
     fallbackSrc?: string;
     fallbackAlt?: string;
-    fallbackIcon?: React.ReactNode;
+    fallbackIcon?: React.ReactElement;
     fallbackIconSize?: number;
 }
 >(({ className, size = 24, src, alt, fallbackSrc, fallbackAlt, fallbackIcon, fallbackIconSize = 24, ...props }, ref) => (
@@ -23,7 +23,7 @@ const Avatar = React.forwardRef<
     >
         {src ? (
             <AvatarImage
-                className="object-contain h-[100px] w-[100px] rounded-[35px] border"
+                className="object-cover h-100px w-100px rounded-full"
                 src={src}
                 alt={alt}
             />
