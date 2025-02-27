@@ -1,4 +1,4 @@
-import BlurFade from "@/components/ui/blur-fade";
+import BlurFade from "@/components/ui/Blur-fade";
 import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
 
