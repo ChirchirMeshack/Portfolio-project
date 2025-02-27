@@ -41,7 +41,6 @@ export const metadata: Metadata = {
   verification: {
     google: "",
     yandex: "",
-    bing: "",
   },
   openGraph: {
     type: "website",
