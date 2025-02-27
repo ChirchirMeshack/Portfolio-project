@@ -10,8 +10,8 @@ export const DATA = {
   description:
     "IT professional passionate about leveraging technology to solve real-world problems. Skilled in cloud computing, networking, and software development. Always learning and eager to share knowledge.",
   summary:
-    "In 2023, I earned my Bachelor’s degree in Computer Science from KCA University and have since been building a career focused on cloud computing & Software Development(/#education). I hold certifications in AWS Cloud and Cisco Networking and have worked in roles ranging from technical support to network engineering. I’ve contributed to IT operations at institutions like Moi University and Reale Hospital. Recently, I’ve been diving deeper into cloud technologies and front-end development with React and Node.js. My ultimate goal is to empower businesses through innovative technology solutions and structured IT systems.",
-  avatarUrl: "/me.png",
+    "In 2023, I earned my Bachelor’s degree in Computer Science from KCA University and have since been building a career focused on cloud computing & Software Development. I hold certifications in AWS Cloud and Cisco Networking and have worked in roles ranging from technical support to network engineering. I’ve contributed to IT operations at institutions like Moi University and Reale Hospital. Recently, I’ve been diving deeper into cloud technologies and front-end development with React and Node.js. My ultimate goal is to empower businesses through innovative technology solutions and structured IT systems.",
+  avatarUrl: "/me1.png",
   skills: [
     "React",
     "Next.js",
