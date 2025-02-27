@@ -113,14 +113,14 @@ export const DATA = {
       start: "2019",
       end: "2023",
     },
-    {/*
+    /*{
       school: "St Patrick's High School Iten",
       href: "https://stpatricksiten.sc.ke/",
       degree: "Kenya Certificate of Secondary Education(KCSE) ",
       logoUrl: "/iten.png",
       start: "2014",
       end: "2018",
-    */},
+    },*/
   ],
   projects: [
     {/*
